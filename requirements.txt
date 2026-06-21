@@ -1,0 +1,52 @@
+# Data Cleaning and Validation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning (for production)
+scikit-learn>=1.3.0
+
+# RAG and LLM (for production - optional)
+# sentence-transformers>=2.2.0
+# openai>=1.0.0
+# pinecone-client>=3.0.0
+# langchain>=0.1.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Development
+black>=23.0.0
+isort>=5.12.0
+mypy>=1.5.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+
+# RAG e Embeddings (novo)
+sentence-transformers>=2.2.0
+torch>=2.0.0
+
+# API (próximo passo)
+fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# LLM (opcional)
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Development
+black>=23.0.0
+isort>=5.12.0

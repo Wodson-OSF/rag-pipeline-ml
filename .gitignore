@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+dist/
+build/
+*.egg-info/
+
+# Dados (NUNCA commitar dados reais)
+data/raw/*
+data/processed/*
+*.csv
+*.xlsx
+*.json
+
+# Modelos treinados
+models/*.pkl
+models/*.h5
+*.joblib
+
+# Variáveis de ambiente (chaves, senhas)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Notebooks (opcional)
+.ipynb_checkpoints/
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Testes
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Arquivos grandes
+*.zip
+*.tar.gz
+*.rar
+*.7z
